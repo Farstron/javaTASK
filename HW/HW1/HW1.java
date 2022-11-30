@@ -22,7 +22,6 @@ public class HW1 {
         for (int c = i; c < Short.MAX_VALUE; c++){
             if (c % n == 0){
                 m1[j] = c;
-                // System.out.println(m1[j]);
                 j++;
             }
         }
